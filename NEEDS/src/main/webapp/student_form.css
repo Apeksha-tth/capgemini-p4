@@ -1,0 +1,89 @@
+@charset "UTF-8";
+ body {
+            font-family: Arial, sans-serif;
+        }
+  header {
+            
+            display: flex;
+            width: auto;
+            justify-content: around;
+            align-items: center;
+            padding: 20px;
+            background-color: #35495e;
+            color: white;
+        }
+
+
+      
+.navigationbar {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-left: auto;
+     margin-right: 20px; 
+}
+
+.navigationbar ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0; 
+    padding: 0; 
+}
+
+.navigationbar ul li {
+    margin-left: 10px; 
+}
+
+.navigationbar ul li input[type="submit"] {
+    display: block;
+    color: #35495e;
+    text-decoration: none;
+    border-radius: 50px;
+   
+    transition: 0.2s;
+    padding: 10px 25px;
+    font-family: karla;
+    font-size: large;
+    font-weight: 900;
+}
+.navigationbar ul li form{
+	 max-width: 500px;
+            margin: 20px auto;
+            padding: 20px;
+           
+           
+}
+
+.navigationbar ul li a:hover {
+ color: #35495e;
+ background-color: white;
+
+}
+        form {
+            max-width: 500px;
+            margin: 20px auto;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        label {
+            display: block;
+            margin-bottom: 5px;
+        }
+        select, input[type="text"] {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 3px;
+        }
+        button[type="submit"] {
+            background-color: #35495e;
+            color: white;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 3px;
+            cursor: pointer;
+        }
+        
+      
